@@ -1,0 +1,17 @@
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	time := 20
+	if time > 18 {
+		fmt.Println("good guy it is morning guys ")
+	} else if 20 > 18 {
+		fmt.Println("good night guys")
+	} else {
+		fmt.Println("but what are you thinking")
+
+	}
+}
